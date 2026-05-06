@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Large data files
+features/
+splits/
+*.h5
+*.svs
+*.ckpt
+*.pt
+*.pth
+
+# Logs
+*.log
+nohup.out
+
+# Jupyter
+.ipynb_checkpoints/
