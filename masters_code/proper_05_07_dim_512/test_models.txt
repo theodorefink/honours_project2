@@ -1,0 +1,5 @@
+/csse/users/tfi38/honours_project2/masters_code/proper_05_07_dim_512/checkpoints/AMD_MIL/model_0/epoch=00-val_loss=0.5753865838050842.ckpt
+/csse/users/tfi38/honours_project2/masters_code/proper_05_07_dim_512/checkpoints/AMD_MIL/model_1/epoch=31-val_loss=0.17996257543563843.ckpt
+/csse/users/tfi38/honours_project2/masters_code/proper_05_07_dim_512/checkpoints/AMD_MIL/model_2/epoch=00-val_loss=0.1928570717573166.ckpt
+/csse/users/tfi38/honours_project2/masters_code/proper_05_07_dim_512/checkpoints/AMD_MIL/model_3/epoch=00-val_loss=0.2737697660923004.ckpt
+/csse/users/tfi38/honours_project2/masters_code/proper_05_07_dim_512/checkpoints/AMD_MIL/model_4/epoch=07-val_loss=0.3427119255065918.ckpt

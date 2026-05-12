@@ -45,8 +45,8 @@ def crossval(name):
 
     for i in range(5):
 
-        train_set = WSI_Dataset(f"path/to/training/set")
-        val_set = WSI_Dataset(f"path/to/validation/set")
+        train_set = WSI_Dataset(f"../splits/fold_{i+1}/train")
+        val_set = WSI_Dataset(f"../splits/fold_{i+1}/val")
 
         feature_dim = 512
 

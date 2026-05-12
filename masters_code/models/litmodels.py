@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torchmetrics.classification import BinaryAUROC
+import lightning as L
 
 
 class LitInstanceBasedModel(L.LightningModule):
