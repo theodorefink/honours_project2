@@ -3,7 +3,7 @@ import numpy as np
 from pathlib import Path
 from sklearn.model_selection import StratifiedGroupKFold
 
-SPREADSHEET = Path("/media/tfi38/Expansion/Malignant_Polyps/Slide_and_Clinical_Table_for_Datasets_28thJan2026.xlsx")
+SPREADSHEET = Path("/local/tfi38/Malignant_Polyps/Slide_and_Clinical_Table_for_Datasets_28thJan2026.xlsx")
 FEATURES_DIR = Path("/csse/users/tfi38/honours_project2/features/conch-7e9d3eb3")
 SPLITS_DIR = Path("/csse/users/tfi38/honours_project2/splits")
 
