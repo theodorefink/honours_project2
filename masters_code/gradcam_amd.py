@@ -116,10 +116,15 @@ def main():
         (141, "/media/tfi38/T7 Shield/Canterbury_Dataset/De_Identified_NEGATIVE_LNM_Cases/LNM_C0141.svs", 0),
     ]
 
-    for idx, path, label in slides:
-        importance, pred = gradcam_vals(dataset, ckpt_path, idx)
-        coords = dataset[idx][2]
-        make_heatmap(importance, path, coords, pred, label, out_dir)
+    with open('importance.txt', 'w') as f:
+        for idx, path, label in slides:
+            importance, pred = gradcam_vals(dataset, ckpt_path, idx)
+            importance_list = importance.cpu().tolist()
+            f.write(f"{path}\n")
+            for i in importance_list:
+                f.write(f"{i}\n")
+            coords = dataset[idx][2]
+            make_heatmap(importance, path, coords, pred, label, out_dir)
 
 
 if __name__ == "__main__":
